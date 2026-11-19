@@ -1,0 +1,23 @@
+# Local model, binaries, experiment outputs, and datasets
+/.local/
+/data/
+*.gguf
+*.zip
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Local handover notes
+/启动qwen3服务器.txt
+/项目二_*.md
+
+# Python caches and developer settings
+__pycache__/
+*.py[cod]
+/.venv/
+/.pytest_cache/
+/.vscode/
+/.idea/
+.env
+.env.*
