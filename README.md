@@ -48,7 +48,10 @@ flowchart LR
 & .\.local\llama.cpp\b10343\llama-server.exe -m .\.local\downloads\Qwen3-4B-Instruct-2507-Q4_K_M.gguf --alias qwen3-local --jinja -ngl 99 -c 4096 -np 1 --host 127.0.0.1 --port 8080
 ```
 
-### 2. 运行多轮演示
+### 2. 运行多轮原型演示（可选）
+
+> [!NOTE]
+> **多轮追问仅在独立原型中实现。** 合成销售库的两轮用例验证了时间范围的继承和地区条件的追加或替换。最终 A2 流程及 BIRD 正式评测均只覆盖单轮 SQL 生成与执行反馈纠错。
 
 保持模型服务运行，在第二个 PowerShell 终端执行。数据库由脚本从合成样本生成，不需要下载 BIRD。
 
